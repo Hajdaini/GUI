@@ -50,7 +50,7 @@ class Server:
             cThread = threading.Thread(target=self.handler, args=(connection, ))
             cThread.daemon = True
             cThread.start()
-            message_info = '[{}] {} ({}:{}) is connected'.format(time.strftime("%Y-%m-%d %H:%I:%S"),connection['username'],  connection['info'][0], connection['info'][1])
+            message_info = '[{}] {} ({}:{}) is connected'.format(time.strftime("%Y-%m-%d %H:%M:%S"),connection['username'],  connection['info'][0], connection['info'][1])
             self.print_and_log(message_info)
 
 
