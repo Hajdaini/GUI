@@ -1,2 +1,3 @@
 # GUI
-<img src="gui.jpg">
+
+![gui](gui.jpg)
