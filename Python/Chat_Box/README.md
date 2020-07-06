@@ -15,7 +15,7 @@ Install python 3
    In order to create a discussion, one of parties need to    host a server. For that, you just need to run the following    command:
    
    ```py
-   pyhton3 server
+   python3 server
    ```
 
 2. **Join a server**
@@ -23,7 +23,7 @@ Install python 3
    Wether you host a server or not, you need to connect to it to join a conversation. To join a server, simply run:
    
    ```py
-   pyhton3 client
+   python3 client
    ```
 
 3. **Choose your username**
